@@ -1,0 +1,25 @@
+package Prateek;
+
+import java.util.Scanner;
+
+public class year {
+
+	public static void main(String[] args) {
+		System.out.print("Enter the minute: ");
+		Scanner sc = new Scanner(System.in);
+		long min = sc.nextLong();
+		
+		long yr=0;
+		long day=0;
+		if(min>0) {
+			yr=min/525600;
+			day = min%525600;
+			System.out.println(yr+" yr "+day+" days");
+		}
+		 
+		
+		
+
+	}
+
+}
